@@ -8,6 +8,7 @@
  * @param {number} target
  * @return {number}
  */
+// eslint-disable-next-line no-unused-vars
 const search = function (nums, target) {
     let left = 0, right = nums.length - 1;
     while (left <= right) {
